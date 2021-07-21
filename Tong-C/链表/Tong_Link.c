@@ -12,13 +12,25 @@
 link * initLink(void){
     link * temp = NULL;
     link * p = (link*)malloc(sizeof(link));
+    if (p == NULL) {
+        printf("申请空间失败");
+        exit(0);
+    }
     temp = p;
+//    尾部插入法
     for (int i = 1; i < 5; i ++) {
         link* a = (link *)malloc(sizeof(link));
         a->elem = i;
         a->next = NULL;
         temp->next = a;
         temp = temp->next;
+    }
+//    头部插入法
+    for (int i= 6; i < 10; i ++) {
+        link *a = (link *)malloc(sizeof(link));
+        a->elem = i;
+        a->next = temp->next;
+        temp->next = a;
     }
     return p;
 }
@@ -90,7 +102,7 @@ void display(link *p){
     link *temp= p;
     while (temp->next) {
         temp = temp->next;
-        printf("%d",temp->elem);
+        printf("link-->%d \n",temp->elem);
     }
     printf("\n");
     

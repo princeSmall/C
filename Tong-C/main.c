@@ -9,10 +9,17 @@
 #include "Tong_Table.h"
 #include "Tong_Link.h"
 #include "Tong_Component.h"
+#include "Tong_Line.h"
+#include "Tong_Stack.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
+    
+//    双向链表
+    loadLine();
+//    栈
+    load_stack();
     
     component array[6];
     int body = initArr(array);

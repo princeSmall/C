@@ -9,6 +9,9 @@
 #define Tong_Link_h
 
 #include <stdio.h>
+/**
+ ⚠️⚠️⚠️⚠️⚠️⚠️⚠️ 单向链表
+ */
 
 typedef struct Link{
     char elem;    // 代表数据域

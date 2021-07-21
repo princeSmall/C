@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D096DB926A7B01300B65570 /* Tong_Stack.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D096DB826A7B01300B65570 /* Tong_Stack.c */; };
 		5D5382F2269C3CA1003B2CB2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D5382F1269C3CA1003B2CB2 /* main.c */; };
 		5D5382FA269C4111003B2CB2 /* Tong_Table.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D5382F9269C4111003B2CB2 /* Tong_Table.c */; };
 		5D5382FD269D5945003B2CB2 /* Tong_Link.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D5382FC269D5945003B2CB2 /* Tong_Link.c */; };
 		5D538303269D7857003B2CB2 /* Tong_Component.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D538302269D7857003B2CB2 /* Tong_Component.c */; };
+		5D992E4E26A0147500B9797B /* Tong_Line.c in Sources */ = {isa = PBXBuildFile; fileRef = 5D992E4D26A0147500B9797B /* Tong_Line.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5D096DB726A7B01300B65570 /* Tong_Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tong_Stack.h; sourceTree = "<group>"; };
+		5D096DB826A7B01300B65570 /* Tong_Stack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Tong_Stack.c; sourceTree = "<group>"; };
 		5D5382EE269C3CA1003B2CB2 /* Tong-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Tong-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D5382F1269C3CA1003B2CB2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		5D5382F8269C4111003B2CB2 /* Tong_Table.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tong_Table.h; sourceTree = "<group>"; };
@@ -34,6 +38,8 @@
 		5D5382FC269D5945003B2CB2 /* Tong_Link.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Tong_Link.c; sourceTree = "<group>"; };
 		5D538301269D7857003B2CB2 /* Tong_Component.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tong_Component.h; sourceTree = "<group>"; };
 		5D538302269D7857003B2CB2 /* Tong_Component.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Tong_Component.c; sourceTree = "<group>"; };
+		5D992E4C26A0147500B9797B /* Tong_Line.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tong_Line.h; sourceTree = "<group>"; };
+		5D992E4D26A0147500B9797B /* Tong_Line.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Tong_Line.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D096DB626A7AFF000B65570 /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+				5D096DB726A7B01300B65570 /* Tong_Stack.h */,
+				5D096DB826A7B01300B65570 /* Tong_Stack.c */,
+			);
+			path = "栈";
+			sourceTree = "<group>";
+		};
 		5D5382E5269C3CA1003B2CB2 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +81,7 @@
 		5D5382F0269C3CA1003B2CB2 /* Tong-C */ = {
 			isa = PBXGroup;
 			children = (
+				5D096DB626A7AFF000B65570 /* 栈 */,
 				5D538300269D74AE003B2CB2 /* 静态链表 */,
 				5D5382FF269D749B003B2CB2 /* 链表 */,
 				5D5382FE269D7494003B2CB2 /* 顺序表 */,
@@ -88,6 +104,8 @@
 			children = (
 				5D5382FB269D5945003B2CB2 /* Tong_Link.h */,
 				5D5382FC269D5945003B2CB2 /* Tong_Link.c */,
+				5D992E4C26A0147500B9797B /* Tong_Line.h */,
+				5D992E4D26A0147500B9797B /* Tong_Line.c */,
 			);
 			path = "链表";
 			sourceTree = "<group>";
@@ -157,6 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D096DB926A7B01300B65570 /* Tong_Stack.c in Sources */,
+				5D992E4E26A0147500B9797B /* Tong_Line.c in Sources */,
 				5D5382FA269C4111003B2CB2 /* Tong_Table.c in Sources */,
 				5D5382FD269D5945003B2CB2 /* Tong_Link.c in Sources */,
 				5D5382F2269C3CA1003B2CB2 /* main.c in Sources */,

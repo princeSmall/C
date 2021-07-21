@@ -10,6 +10,9 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ ⚠️⚠️⚠️⚠️  顺序表
+ */
 
 typedef struct Table{
     int *head;

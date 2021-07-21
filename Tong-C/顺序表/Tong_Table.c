@@ -72,7 +72,7 @@ table amendTable(table t, int elem ,int newElem){
 
 void displayTable(table t){
     for (int i=0;i<t.length;i++) {
-        printf("--%d ",t.head[i]);
+        printf("table--->%d \n",t.head[i]);
     }
     printf("\n");
 }
