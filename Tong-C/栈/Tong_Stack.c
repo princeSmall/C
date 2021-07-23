@@ -90,8 +90,8 @@ void load_stack(){
      数组栈
      */
     stack *s = init();
+    int input[5] = {11,22,33,44,55};
     for (int i = 0; i < 5; i ++) {
-        int input[5] = {11,22,33,44,55};
         push(s, input[i]);
     }
     print_stack(s);
@@ -102,7 +102,6 @@ void load_stack(){
      */
     link_stack *stack = creat_stack();
     for (int i = 0; i < 5; i ++) {
-        int input[5] = {12,13,14,15,16};
         push_stack(stack, input[i]);
     }
     print_link_stack(stack);

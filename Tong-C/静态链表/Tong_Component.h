@@ -31,4 +31,6 @@ void displayArr(component *array, int body);
  */
 int mallocArr(component *array);
 
+void load_component(void);
+
 #endif /* Tong_Component_h */

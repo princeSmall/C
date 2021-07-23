@@ -45,6 +45,13 @@ void displayArr(component *array, int body){
         printf("%d, %d \n",array[tempBody].data, array[tempBody].cur);
         tempBody = array[tempBody].cur;
     }
-    printf("--%d, %d \n",array[tempBody].data,array[tempBody].cur);
-    
 }
+
+void load_component(void){
+    component array[6];
+    int body = initArr(array);
+    printf("静态链表为：\n");
+    displayArr(array, body);
+}
+
+

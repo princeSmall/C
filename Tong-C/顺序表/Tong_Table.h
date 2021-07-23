@@ -47,4 +47,6 @@ table amendTable(table t, int elem ,int newElem);
 
 void displayTable(table t);
 
+void load_table(void);
+
 #endif /* Tong_Table_h */

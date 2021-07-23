@@ -9,9 +9,8 @@
 #define Tong_Link_h
 
 #include <stdio.h>
-/**
- ⚠️⚠️⚠️⚠️⚠️⚠️⚠️ 单向链表
- */
+
+#pragma mark -- ⚠️⚠️⚠️⚠️⚠️⚠️⚠️ 单向链表
 
 typedef struct Link{
     char elem;    // 代表数据域
@@ -45,6 +44,32 @@ int selectElem(link *p, int elem);
 link *amendElem(link *p, int add, int newElem);
 
 void display(link *p);
+
+
+#pragma mark -- ⚠️⚠️⚠️⚠️⚠️⚠️⚠️ 双向链表
+
+typedef struct Line{
+    int data;
+    struct Line *pre;
+    struct Line *next;
+}line;
+//分别表示该结点的前驱(pre)，后继(next)，以及当前数据(data)
+
+/**
+ 初始化链表
+ */
+line *initLine(void);
+
+line *updateLine (line *head, int data, int newData);
+
+line * deleteLine (line *head, int data);
+
+line * insertLine(line *head, int data, int add);
+
+void displayLine(line *head);
+
+
+void load_link(void);
 
 
 

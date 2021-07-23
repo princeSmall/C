@@ -47,7 +47,7 @@ void print_stack(stack *s);
  */
 void load_stack(void);
 
-#pragma mark --战链表
+#pragma mark --栈链表
 
 typedef struct node{
     int data;

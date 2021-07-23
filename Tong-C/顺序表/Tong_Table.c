@@ -74,5 +74,17 @@ void displayTable(table t){
     for (int i=0;i<t.length;i++) {
         printf("table--->%d \n",t.head[i]);
     }
-    printf("\n");
+}
+
+void load_table(void){
+    table t1 = initTable();
+    for (int i=1; i<=5; i++) {
+        t1.head[i-1]=i;
+        t1.length++;
+    }
+    displayTable(t1);
+    t1 = addTable(t1, 5, 2);
+    displayTable(t1);
+    t1 = amendTable(t1, 2, 10);
+    displayTable(t1);
 }
