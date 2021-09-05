@@ -2,7 +2,7 @@
 //  main.c
 //  Tong-C
 //
-//  Created by Tongle on 2021/7/12.
+//  Created by PrinceSmall on 2021/7/12.
 //
 
 #include <stdio.h>

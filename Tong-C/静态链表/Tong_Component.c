@@ -2,7 +2,7 @@
 //  Tong_Component.c
 //  Tong-C
 //
-//  Created by Tongle on 2021/7/13.
+//  Created by PrinceSmall on 2021/7/13.
 //
 
 #include "Tong_Component.h"

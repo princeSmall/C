@@ -2,7 +2,7 @@
 //  Tong_GreedyAlgorithm.h
 //  Tong-C
 //
-//  Created by Tongle on 2021/8/19.
+//  Created by PrinceSmall on 2021/8/19.
 //
 
 #ifndef Tong_GreedyAlgorithm_h

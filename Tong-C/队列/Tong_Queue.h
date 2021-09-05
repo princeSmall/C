@@ -2,7 +2,7 @@
 //  Tong_Queue.h
 //  Tong-C
 //
-//  Created by Tongle on 2021/7/21.
+//  Created by PrinceSmall on 2021/7/21.
 //
 
 #ifndef Tong_Queue_h
